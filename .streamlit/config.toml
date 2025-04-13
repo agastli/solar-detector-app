@@ -1,11 +1,10 @@
 [server]
-headless = false
+headless = true
 port = 8501
 enableCORS = false
 enableXsrfProtection = false
 fileWatcherType = "none"
-[python]
-version = "3.10"
+
 
 [browser]
 gatherUsageStats = false
